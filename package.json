@@ -1,0 +1,16 @@
+{
+  "name": "everyclienttool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js && node fetch.js && python3 script.py && bash bash.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9"
+  }
+}
